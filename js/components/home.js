@@ -12,7 +12,8 @@ let Home = React.createClass({
                 <div id="header_social">
                     <a href="mailto:luisgmartins@sapo.pt" className="social_link"><i className="fa fa-envelope-o"></i></a>
                     <a href="https://pt.linkedin.com/in/guilhermescp" className="social_link"><i className="fa fa-linkedin"></i></a>
-                    <a href="https://facebook.com/GuilhermeSCP" className="social_link"><i className="fa fa-facebook"></i></a>
+                    <a href="https://github.com/GuilhermeSCP/" className="social_link"><i className="fa fa-github"></i></a>
+                    <a href="https://bitbucket.org/GuilhermeSCP/" className="social_link"><i className="fa fa-bitbucket"></i></a>
                     <a href="skype:luisguilherme.martins" className="social_link"><i className="fa fa-skype"></i></a>
                 </div>
                 <div id="header_button"><button>Find out more</button></div>

@@ -35,7 +35,7 @@ body {
     text-transform: uppercase;
 }
 #title_job {
-    font-size: 2rem;
+    font-size: 1.8rem;
     font-weight: 300;
     text-transform: uppercase;
 }
@@ -69,8 +69,11 @@ i.fa-linkedin {
 i.fa-skype {
     color: #12A5F4;
 }
-i.fa-facebook {
-    color: #3b5998;
+i.fa-github {
+    color: #333333;
+}
+i.fa-bitbucket {
+    color: #205081;
 }
 #header_button {
     padding-top: 2rem;
