@@ -2,10 +2,10 @@ html {
     font-size: 15px;
     font-family: "Source Sans Pro";
     color: white;
+    box-sizing: border-box;
 }
 body {
     height: 100vh;
-    width: 100vw;
     margin: 0;
     background: url('/img/4.jpg') no-repeat fixed center;
 }
@@ -26,8 +26,30 @@ body {
     color: #0099e5;
     border-radius: 2px;
 }
-#home {
+#home{
     padding-top: 15%;
+}
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-color: #FAF7F3;
+    color: #0099e5;
+}
+#footer {
+    width: 70%;
+    padding: 5px 0;
+    text-align: right;
+    margin: auto;
+}
+#footer>img {
+    width: 25px;
+    vertical-align: middle;
+    padding-left: 5px;
+}
+.content_section {
+    padding-top: 15%;
+    display: flex;
 }
 #header_title {}
 #title_name > h1 {
@@ -70,7 +92,7 @@ i.fa-skype {
     color: #12A5F4;
 }
 i.fa-github {
-    color: #333333;
+    color: #4183c4;
 }
 i.fa-bitbucket {
     color: #205081;
@@ -91,4 +113,34 @@ i.fa-bitbucket {
 #header_button > button:hover {
     color: #0099e5;
     background: white;
+}
+#about {
+    width: 70%;
+    margin: auto;
+    max-width: 1400px;
+}
+#about_pic {
+    padding-top: 4rem;
+    width: 50%;
+    float: left;
+    padding-left: 10%;
+    box-sizing: border-box;
+}
+#about_pic>img {
+    width: 200px;
+}
+#about_text {
+    width: 50%;
+    float: left;
+}
+#about_content {
+    width: 50%;
+    float: left;
+}
+#about_content > h2 {
+    text-align: left;
+}
+.about_text {
+    text-align: left;
+    text-transform: none;
 }

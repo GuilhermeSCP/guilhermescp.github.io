@@ -12,16 +12,17 @@ let App = React.createClass({
     render() {
         return(
             <div id="nav">
-            <div id="topbar">
-                <Link to="app">Home</Link>
-                <Link to="about">About</Link>
-                <Link to="interests">Interests</Link>
-                <Link to="projects">Projects</Link>
-                <Link to="contact">Contact</Link>
-            </div>
+                <div id="topbar">
+                    <Link to="app">Home</Link>
+                    <Link to="about">About</Link>
+                    <Link to="interests">Interests</Link>
+                    <Link to="projects">Projects</Link>
+                    <Link to="contact">Contact</Link>
+                </div>
 
                 {/* this is the important part */}
                 <RouteHandler/>
+                <footer><div id="footer">Made with <i className="fa fa-coffee"></i> by <img src="../img/gui.jpg" /></div></footer>
             </div>
         );
   }
