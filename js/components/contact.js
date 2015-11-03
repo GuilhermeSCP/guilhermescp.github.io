@@ -3,7 +3,7 @@ import React from 'react';
 let Contact = React.createClass({ 
 
   render() {
-    return(<div>Welcome to contact</div>);
+    return(<h3>Under construction!</h3>);
   }
 });
 
