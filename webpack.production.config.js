@@ -1,6 +1,6 @@
 var path = require('path');
 var config = {
-    entry: "/js/app.js";
+    entry: "/js/app.js",
     output: {
         path: __dirname + '/',
         filename: "bundle.js"
