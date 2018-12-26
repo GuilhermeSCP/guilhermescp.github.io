@@ -3,7 +3,7 @@ import React from 'react';
 let Interests = React.createClass({ 
 
   render() {
-    return(<h3>Under construction!</h3>);
+    return(<h3>Under construction boy!</h3>);
   }
 });
 
