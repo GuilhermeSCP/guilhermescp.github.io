@@ -82,7 +82,7 @@ footer {
     padding-top: 1rem;
     font-size: 1.5rem;
 }
-i.fa-envelope-o {
+i.fa-envelope {
     color: #dd4b39;
 }
 i.fa-linkedin {
@@ -100,7 +100,7 @@ i.fa-bitbucket {
 #header_button {
     padding-top: 2rem;
 }
-#header_button > button {
+#header_button button {
     background: transparent;
     border: 2px solid white;
     height: 2.5rem;
