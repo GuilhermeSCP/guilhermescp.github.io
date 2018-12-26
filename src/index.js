@@ -8,7 +8,7 @@ import InterestsHandler from './components/interests.js';
 import ProjectsHandler from './components/projects.js';
 import ContactHandler from './components/contact.js';
 
-let App = React.createClass({  
+let App = React.createClass({
     render() {
         return(
             <div id="nav">
@@ -28,7 +28,7 @@ let App = React.createClass({
   }
 });
 
-let routes = (  
+const routes = (  
     <Route name="app" path="/" handler={App}>
         <Route name="home" path="/" handler={HomeHandler}/>
         <Route name="about" path="/about" handler={AboutHandler}/>
