@@ -3,11 +3,11 @@ import Router from 'react-router';
 import { DefaultRoute, Link, Route, RouteHandler } from 'react-router';
 import ReactDOM from "react-dom";
 
-import HomeHandler from './components/home';
-import AboutHandler from './components/about';
-import InterestsHandler from './components/interests';
-import ProjectsHandler from './components/projects';
-import ContactHandler from './components/contact';
+import HomeHandler from './components/home.jsx';
+import AboutHandler from './components/about.jsx';
+// import InterestsHandler from './components/interests.jsx';
+// import ProjectsHandler from './components/projects.jsx';
+// import ContactHandler from './components/contact.jsx';
 
 const App = () => (
     <div id="nav">
