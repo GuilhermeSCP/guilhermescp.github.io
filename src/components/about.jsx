@@ -14,15 +14,19 @@ const About = () => (
           }
         </p>
         <p className="about_text">
-          {`I'm a very curious person, therefore much of my free time is spent browsing the internet 
-                researching many topics related to my main interests which are science, sports (I not
-                only watch, I practice was well), music (I play saxophone when i'm inspired), games
-                and tech, of course, which was the reason I became a developer.`}
+          {`Originally from Portugal, I'm currently based in the lovely city of Barcelona.
+              I'm a very curious and and also a bit stubborn by nature, which translates to a instinctive
+              appetence for detail, being performance and quality, two of the topics I try to
+              incorporate the most in my work.
+              I care a lot about the team efforts and I'm always trying to find ways of improving
+              the engineering side of things. I always try to ally the challenge and the fun of
+              working on a project with commitment of delivering business value and adapt to individuals
+              and interactions.`}
         </p>
         <p className="about_text">
-          {`I'm also a social guy and I believe that much of our performance it's related to 
-                motivation, which can only be obtained by keeping good relations with the people that
-                surround us, so I always try to be nice and make my partners as confortable as possible.`}
+          {`In my free time I enjoy going out and exploring the city with friends and family 
+              but I definitely won't say no to some quality time at home watching some good series/movies
+              and listening to whatever I feel like hearing to (it changes, a lot).`}
         </p>
       </div>
     </div>
