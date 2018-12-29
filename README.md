@@ -14,9 +14,9 @@ https://codeburst.io/deploy-react-to-github-pages-to-create-an-amazing-website-4
 
 #### TODO:
 
-- [] Interests page
-- [] Projects page
-- [] Contact page
-- [] Minimally acceptable responsiveness
-- [] Improve lighthouse rating
-- [] Introduce code splitting
+- [ ] Interests page
+- [ ] Projects page
+- [ ] Contact page
+- [ ] Minimally acceptable responsiveness
+- [ ] Improve lighthouse rating
+- [ ] Introduce code splitting
