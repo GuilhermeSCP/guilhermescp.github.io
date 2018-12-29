@@ -7,12 +7,17 @@ html {
 body {
   height: 100vh;
   margin: 0;
-  background: url("/img/4.jpg") no-repeat fixed center;
+  background: url(bg.jpg) no-repeat fixed center;
 }
 #nav {
   text-transform: uppercase;
   text-align: center;
   padding-top: 1rem;
+}
+#topbar {
+  position: fixed;
+  margin: auto;
+  width: 100%;
 }
 #topbar > a {
   margin-right: 2rem;
@@ -148,5 +153,8 @@ i.fa-medium {
   text-transform: none;
   font-size: 2rem;
   color: #fff;
+}
+h3.umder_construction {
+  padding-top: 3rem;
 }
 
