@@ -1,9 +1,11 @@
 import React from 'react';
 
+import gui from '../../img/gui.jpg';
+
 const About = () => (
   <div className="content_section" id="about">
     <div id="about_pic">
-      <img src="../../img/gui.jpg" alt="gui" />
+      <img src={gui} alt="gui" />
     </div>
     <div id="about_content">
       <h2> About Me </h2>

@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link, Switch, Route } from 'react-router-dom';
 
+import pic from '../../img/gui.jpg';
 import Home from './home';
 import About from './about';
 import Interests from './interests';
@@ -28,7 +29,7 @@ export default () => (
         {'Made with'}
         <i className="fa fa-coffee" />
         {' by'}
-        <img src="../img/gui.jpg" title="olá" alt="gui" />
+        <img src={pic} title="olá" alt="gui" />
       </div>
     </footer>
   </div>
