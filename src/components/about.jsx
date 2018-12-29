@@ -9,24 +9,15 @@ const About = () => (
       <h2> About Me </h2>
       <div>
         <p className="about_text">
-          {
-            "Hello there, my name is Guilherme and I'm a software engineer, currently delighted by the wonders of front end and Javascript."
-          }
+          {`My name is Guilherme and I'm a software engineer,
+            currently delighted by the wonders of front end and Javascript.`}
         </p>
         <p className="about_text">
-          {`Originally from Portugal, I'm currently based in the lovely city of Barcelona.
-              I'm a very curious and and also a bit stubborn by nature, which translates to a instinctive
-              appetence for detail, being performance and quality, two of the topics I try to
-              incorporate the most in my work.
-              I care a lot about the team efforts and I'm always trying to find ways of improving
-              the engineering side of things. I always try to ally the challenge and the fun of
-              working on a project with commitment of delivering business value and adapt to individuals
-              and interactions.`}
-        </p>
-        <p className="about_text">
-          {`In my free time I enjoy going out and exploring the city with friends and family 
-              but I definitely won't say no to some quality time at home watching some good series/movies
-              and listening to whatever I feel like hearing to (it changes, a lot).`}
+          {'I code, I think and occasionally, I '}
+          <a href="https://medium.com/bynder-tech/creating-a-sdk-from-scratch-2809ded9fa8a">
+            {'write.'}
+          </a>
+          <span style={{ fontSize: '0.7rem' }}> Not necessarily in that order.</span>
         </p>
       </div>
     </div>

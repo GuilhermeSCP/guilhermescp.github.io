@@ -117,12 +117,12 @@ i.fa-medium {
   background: white;
 }
 #about {
-  width: 70%;
+  width: 60%;
   margin: auto;
   max-width: 1400px;
 }
 #about_pic {
-  padding-top: 4rem;
+  padding-top: 1.5rem;
   width: 50%;
   float: left;
   padding-left: 10%;
@@ -136,13 +136,16 @@ i.fa-medium {
   float: left;
 }
 #about_content {
-  width: 50%;
+  width: 70%;
   float: left;
 }
 #about_content > h2 {
   text-align: left;
 }
-.about_text {
+#about_content .about_text,
+#about_content .about_text > a {
   text-align: left;
   text-transform: none;
+  font-size: 2rem;
+  color: #fff;
 }
